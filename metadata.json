@@ -5,5 +5,5 @@
     "settings-schema": "org.gnome.shell.extensions.duckduckgo-search-provider",
     "description": "Add DuckDuckGo search suggestions to Gnome Shell Search",
     "url": "https://github.com/keithamus/gnome-shell-duckduckgo-search-provider",
-    "version": 1
+    "version": 2
 }
