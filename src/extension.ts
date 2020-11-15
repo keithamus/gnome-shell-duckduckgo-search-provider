@@ -95,6 +95,7 @@ const ddgProvider: SearchProvider = {
     get_name: () => `DuckDuckGo`,
     get_icon: () => gicon,
     get_id: () => `duckduckgo-provider`,
+    should_show: () => true,
   },
 
   getResultMetas(results: string[], cb: (results: SearchResultMeta[]) => void) {
