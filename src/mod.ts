@@ -84,7 +84,7 @@ declare interface SearchResultMeta {
 }
 
 declare interface SearchProvider {
-  appInfo?: { get_name(): string; get_icon(): GioIcon; get_id(): string };
+  appInfo?: {get_name(): string; get_icon(): GioIcon; get_id(): string, should_show(): boolean};
   createResultObject?(metaInfo: SearchResultMeta, resultsView: any): any;
   getResultMetas(
     resultIds: string[],
