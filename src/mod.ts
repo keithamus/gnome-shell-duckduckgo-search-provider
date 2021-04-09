@@ -35,6 +35,16 @@ declare const imports: {
             _registerProvider(provider: SearchProvider): void
             _unregisterProvider(provider: SearchProvider): void
           }
+        },
+        _overview: {
+          controls: {
+            _searchController: {
+              _searchResults: {
+                _registerProvider(provider: SearchProvider): void
+                _unregisterProvider(provider: SearchProvider): void
+              }
+            }
+          }
         }
       }
     };
