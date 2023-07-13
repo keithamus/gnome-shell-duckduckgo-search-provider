@@ -1,6 +1,6 @@
 {
     "name": "DuckDuckGo Search Provider",
-    "shell-version": ["3.36", "3.38", "40.0", "41.0", "42.0", "42.5"],
+    "shell-version": ["3.36", "3.38", "40.0", "41.0", "42.0", "42.5", "44.2"],
     "uuid": "gnome-shell-duckduckgo-search-provider@keithcirkel.co.uk",
     "settings-schema": "org.gnome.shell.extensions.duckduckgo-search-provider",
     "description": "Add DuckDuckGo search suggestions to Gnome Shell Search",
